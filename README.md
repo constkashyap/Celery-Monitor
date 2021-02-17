@@ -21,7 +21,9 @@
 ### Task Failed.
 ### Worker is back online.
 
-## You can also create your own handlers to get many other info.
+## You can also create your own handlers.
 
+</br>
 
+## You can get more info on Monitoring and Managment of celery here : https://docs.celeryproject.org/en/stable/userguide/monitoring.html
 

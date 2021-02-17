@@ -1,6 +1,6 @@
 from celery import Celery
 
-def my_monitor(app):
+def monitor(app):
     state = app.events.State()
 
     def announce_failed_tasks(event):
@@ -30,5 +30,5 @@ def my_monitor(app):
         recv.capture(limit=None, timeout=None, wakeup=True)
 
 if __name__ == '__main__':
-    app = Celery('celery_demo')
-    my_monitor(app)
+    app = Celery('proj')
+    monitor(app)

@@ -11,6 +11,10 @@
 
 ### `celery -A proj worker --loglevel=info`
 
+## Start the beat scheduler :
+
+### `celery -A proj beat -l info`
+
 ## Place the monitor in your project directory and run :
 
 ### `python monitor.py`
@@ -23,7 +27,7 @@
 
 ## You can also create your own handlers.
 
-</br>
+## To Know more about Monitoring and Management of celery clusters visit :
 
-## You can get more info on Monitoring and Managment of celery here : https://docs.celeryproject.org/en/stable/userguide/monitoring.html
+https://docs.celeryproject.org/en/stable/userguide/monitoring.html
 
